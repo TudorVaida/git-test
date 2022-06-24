@@ -1,0 +1,36 @@
+.filtrare {
+	height: 500px;
+	width: 15%;
+	border-right: 2px solid var(--green);
+	background-color: rgb(38, 40, 51);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-right: 7px;
+}
+.filtru {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+.title {
+	width: 100%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
+}
+.filtru:active {
+	color: rgb(57, 233, 145);
+}
+@media (max-width: 900px) {
+	.filtrare {
+		display: none;
+	}
+}

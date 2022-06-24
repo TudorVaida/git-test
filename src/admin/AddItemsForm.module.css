@@ -1,0 +1,46 @@
+.btnClose {
+	font: inherit;
+	cursor: pointer;
+	background-color: transparent;
+	border: 1px solid rgb(57, 233, 145);
+	padding: 0.5rem 2rem;
+	border-radius: 25px;
+	margin-left: 1rem;
+	float: right;
+	color: rgb(57, 233, 145);
+}
+.btnSubmit {
+	font: inherit;
+	cursor: pointer;
+	background-color: rgb(57, 233, 145);
+	color: rgb(38, 40, 51);
+	border: 1px solid rgb(38, 40, 51);
+	padding: 0.5rem 2rem;
+	border-radius: 25px;
+	margin-left: 1rem;
+	float: right;
+}
+.btnClose:hover,
+.btnClose:active {
+	background-color: rgb(57, 233, 145);
+	border-color: rgb(38, 40, 51);
+	color: rgb(38, 40, 51);
+}
+input {
+	width: 70%;
+	height: 30px;
+	border-radius: 7px;
+	font-size: 15px;
+}
+.label {
+	font-size: 20px;
+	color: rgb(57, 233, 145);
+}
+textarea {
+	border-radius: 7px;
+}
+select {
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+}

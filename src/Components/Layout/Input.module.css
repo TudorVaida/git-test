@@ -1,0 +1,22 @@
+.search {
+	display: flex;
+	align-items: center;
+}
+.search input {
+	width: 400px;
+	line-height: 35px;
+	border-radius: 10px;
+}
+.search img {
+	margin-left: 5px;
+	height: 35px;
+	width: 35px;
+}
+@media (max-width: 600px) {
+	.search {
+		width: 80%;
+	}
+	.search img {
+		height: 2.5rem;
+	}
+}

@@ -1,0 +1,62 @@
+.produs {
+	height: fit-content;
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.produs:hover {
+	/* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.poza {
+	flex-grow: 2;
+	text-align: center;
+	padding-top: 5%;
+}
+.poza img {
+	width: 70%;
+}
+.nume {
+	flex-grow: 1;
+	text-align: center;
+	color: rgb(38, 40, 51);
+	font-weight: bold;
+	padding: 5%;
+}
+.pret {
+	flex-grow: 1;
+	font-size: 35px;
+	color: rgb(57, 233, 145);
+	text-shadow: 1px 1px rgb(38, 40, 51);
+	font-weight: bold;
+}
+.outOfStock {
+	color: red;
+	font-weight: bold;
+}
+.modify {
+	background-color: rgb(38, 40, 51);
+	color: rgb(57, 233, 145);
+	border-radius: 7px;
+	margin: 5px;
+	border: 1px solid black;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+}
+.del {
+	background-color: red;
+	color: white;
+	border-radius: 7px;
+	margin: 5px;
+	border: 1px solid black;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+}

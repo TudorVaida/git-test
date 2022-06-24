@@ -1,0 +1,23 @@
+.produse {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	border-radius: 10px;
+}
+.addBtnContainer {
+	margin: 5px;
+	background-color: white;
+	border-radius: 7px;
+	padding: 5px;
+}
+.addBtn {
+	background-color: rgb(38, 40, 51);
+	color: rgb(57, 233, 145);
+	border-radius: 7px;
+	margin: 5px;
+	border: 1px solid black;
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+}

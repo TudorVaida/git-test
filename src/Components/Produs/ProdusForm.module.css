@@ -1,0 +1,35 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+/* .form button {
+	font: inherit;
+	cursor: pointer;
+	background-color: #8a2b06;
+	border: 1px solid #8a2b06;
+	color: white;
+	padding: 0.25rem 2rem;
+	border-radius: 20px;
+	font-weight: bold;
+} */
+
+.form button:hover,
+.form button:active {
+	background-color: rgb(57, 233, 145);
+	border-color: rgb(57, 233, 145);
+	color: rgb(38, 40, 51);
+}
+.btnAdauga {
+	width: 60%;
+	height: 45px;
+	border: 2px solid white;
+	background-color: rgb(38, 40, 51);
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+}

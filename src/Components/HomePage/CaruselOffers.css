@@ -1,0 +1,14 @@
+.imgCorousel {
+	width: 100%;
+	border-radius: 10px;
+	/* margin-bottom: 10px; */
+}
+.carousel {
+	padding: 0;
+}
+.carousel .thumb {
+	display: none;
+}
+.carousel .control-dots .dot {
+	background-color: black;
+}
